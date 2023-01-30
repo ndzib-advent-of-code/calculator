@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex justify-center items-center min-h-screen">
+    <div class="calculator">
+        <section class="screen">
+            <p id="problem" class="problem">
+                
+            </p>
+            <p id="answer" class="answer">
+                
+            </p>
+        </section>
+        <section class="keypad">
+            <div class="row">
+                <button class="key">CE</button>
+                <button class="key">C</button>
+                <button class="key">X</button>
+                <button class="key">/</button>
+            </div>
+
+            <div class="row">
+                <button class="key">7</button>
+                <button class="key">8</button>
+                <button class="key">9</button>
+                <button class="key">*</button>
+            </div>
+
+            <div class="row">
+                <button class="key">4</button>
+                <button class="key">5</button>
+                <button class="key">6</button>
+                <button class="key">-</button>
+            </div>
+
+            <div class="row">
+                <button class="key">1</button>
+                <button class="key">2</button>
+                <button class="key">3</button>
+                <button class="key">+</button>
+            </div>
+
+            <div class="row">
+                <button class="key">-</button>
+                <button class="key">0</button>
+                <button class="key">.</button>
+                <button class="key">=</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.5.0/math.min.js"
+        integrity="sha512-CTGbAVWJ6AABEPglq77mqB8mXjBRcmtfnxsISZEnJijuJnwooQTMpqDsuIfoXns5HUoDME1Ka0wZ/sBO2jfwgg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

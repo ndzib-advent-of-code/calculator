@@ -1,0 +1,66 @@
+/* Add CSS here */
+
+:root {
+    --primary: #78909C;
+    --light: #C4CDD2;
+}
+
+body {
+    background-color: #E7EBEE;
+}
+
+.key {
+    height: 55px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: gray;
+}
+
+.row {
+    display: flex;
+    gap: inherit;
+}
+
+.keypad {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.screen {
+    height: 120px;
+    background-color: var(--primary);
+    padding: 20px;
+    text-align: right;
+}
+
+.problem {
+    font-size: 14px;
+    color: var(--light);
+}
+
+.answer {
+    font-weight: bold;
+    font-size: 24px;
+    opacity: .9;
+    color: white;
+}
+
+.row:first-child > .key, .row > .key:last-child {
+    background-color: #E4E9EC;
+}
+
+
+.key:hover {
+    transform: scale(1.1);
+    background-color: #FF6567 !important;
+    color: white;
+}
+
+
+.calculator {
+    box-shadow: 0 10px 40px 20px rgba(0, 0, 0, 0.2);
+}
